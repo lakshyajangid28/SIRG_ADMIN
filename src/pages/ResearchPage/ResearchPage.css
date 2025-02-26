@@ -1,0 +1,78 @@
+.research-page {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.box {
+  margin-bottom: 20px;
+}
+
+.ui.header {
+  font-size: 24px;
+}
+
+.ui.input.fluid,
+.ui.textarea.fluid {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.ui.button {
+  font-size: 16px;
+  padding: 12px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.ui.button.red {
+  background-color: #f44336;
+  color: white;
+}
+
+.ui.button.red:hover {
+  background-color: #e53935;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.ui.top.attached.inverted.header {
+  background-color: rgb(95, 219, 101);
+  color: black;
+}
+
+.ui.textarea.fluid {
+  font-size: 14px;
+  padding: 10px;
+}
+
+h2.ui.center.aligned.dividing.header input {
+  font-size: 24px;
+  border: none;
+  text-align: center;
+  outline: none;
+  padding: 10px;
+}
+
+h2.ui.center.aligned.dividing.header input:focus {
+  border-bottom: 2px solid #4caf50;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+button:hover {
+  cursor: pointer;
+}

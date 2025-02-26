@@ -1,0 +1,256 @@
+.box {
+  margin: 0px 200px 0px 250px;
+}
+
+#research p {
+  cursor: pointer;
+  color: blue;
+  transition: color ease-out 0.5s;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.achievement-admin-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+#research p:hover {
+  color: red;
+}
+
+p {
+  font-size: 1.2rem;
+  padding: 5px;
+}
+
+#heading {
+  margin-top: 40px;
+}
+
+#content-box {
+  /* background: linear-gradient(to bottom right, #fcf8e6, rgb(194, 255, 170)); */
+  background: white;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(131, 255, 137, 0.2),
+    0 -4px 10px rgba(62, 253, 72, 0.2), 4px 0 10px rgba(62, 253, 72, 0.2),
+    -4px 0 10px rgba(62, 253, 72, 0.2);
+}
+
+body {
+  background-color: rgba(226, 255, 62, 0.281);
+}
+
+.ui.top.attached.inverted.header {
+  background-color: rgb(95, 219, 101);
+  color: black;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: #fff;
+  padding: 20px;
+  width: 400px;
+  max-width: 90%;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.modal-content h3 {
+  margin-bottom: 15px;
+}
+
+.field {
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.field label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.field input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#teaching-subparts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.research-page {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.box {
+  margin-bottom: 20px;
+}
+
+.ui.header {
+  font-size: 24px;
+}
+
+.ui.input.fluid,
+.ui.textarea.fluid {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.ui.button {
+  font-size: 16px;
+  padding: 12px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.ui.button.red {
+  background-color: #f44336;
+  color: white;
+}
+
+.ui.button.red:hover {
+  background-color: #e53935;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.ui.textarea.fluid {
+  font-size: 14px;
+  padding: 10px;
+}
+
+h2.ui.center.aligned.dividing.header input {
+  font-size: 24px;
+  border: none;
+  text-align: center;
+  outline: none;
+  padding: 10px;
+}
+
+h2.ui.center.aligned.dividing.header input:focus {
+  border-bottom: 2px solid #4caf50;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 1600px) {
+  .box {
+    margin: 0px 120px 0px 250px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .box {
+    margin: 0px 80px 0px 200px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .box {
+    margin: 0px 100px;
+  }
+  p {
+    font-size: 1.1rem;
+    padding: 2.5px;
+  }
+  #heading {
+    margin-top: 75px;
+  }
+}
+
+@media (max-width: 750px) {
+  .box {
+    margin: 0px 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .box {
+    margin: 0px 20px;
+  }
+}
+
+.custom-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.custom-modal {
+  background: #fff;
+  width: 90%;
+  max-width: 500px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.custom-modal-header h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.custom-modal-actions {
+  text-align: right;
+  margin-top: 15px;
+}
