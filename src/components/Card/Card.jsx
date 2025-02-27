@@ -2,7 +2,7 @@ import React from "react";
 
 const Card = ({ person, onEdit, onDelete }) => {
   return (
-    <div className="ui card">
+    <div className="ui brown card">
       <div className="image">
         {person.image ? (
           <img src={person.image} alt="Person" />

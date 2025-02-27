@@ -44,8 +44,63 @@ p {
     -4px 0 10px rgba(62, 253, 72, 0.2);
 }
 
+.ui.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.ui.card {
+  width: 300px; /* Adjusted width */
+  max-width: 300px;
+  height: auto; /* Keeps height flexible */
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.ui.card .image {
+  width: 100%;
+  height: 280px; /* Fixed height */
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ui.card .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures images fit without stretching */
+}
+
+.ui.card .content {
+  padding: 10px;
+  text-align: center;
+}
+
+.ui.card .header {
+  font-size: 16px;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; /* Prevents name overflow */
+}
+
+.ui.card .meta {
+  font-size: 14px;
+  color: gray;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 body {
   background-color: rgba(226, 255, 62, 0.281);
+  color: green;
 }
 
 .ui.top.attached.inverted.header {
